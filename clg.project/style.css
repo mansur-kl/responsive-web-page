@@ -1,0 +1,104 @@
+body {
+  background: linear-gradient(135deg, #ffffff, #ffeeee);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  background: linear-gradient(90deg, #000000, #0f022c, #210f5e, #3b75b4);
+}
+.navbar-brand, .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+}
+.nav-link:hover {
+  color: #ffe082 !important;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.hero p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+.hero .btn {
+  background: #fff;
+  color: #2575fc;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.hero .btn:hover {
+  background: #ffb347;
+  color: white;
+}
+
+/* Cards */
+.card {
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  border: none;
+  transition: transform 0.3s ease-in-out;
+}
+.card:hover {
+  transform: translateY(-8px);
+}
+
+/* Buttons */
+.btn-primary {
+  background: linear-gradient(to right, #ff6f61, #ffb347);
+  border: none;
+}
+.btn-primary:hover {
+  background: linear-gradient(to right, #ff9966, #ff5e62);
+}
+.btn-success {
+  background: linear-gradient(to right, #43e97b, #38f9d7);
+  border: none;
+}
+.btn-success:hover {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+}
+.btn-dark {
+  background: linear-gradient(to right, #141e30, #243b55);
+  border: none;
+}
+.btn-dark:hover {
+  background: linear-gradient(to right, #000428, #004e92);
+}
+
+/* Section Headings */
+h2 {
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 30px;
+  position: relative;
+  display: inline-block;
+}
+h2::after {
+  content: "";
+  width: 60%;
+  height: 4px;
+  background: linear-gradient(to right, #ff6f61, #6a82fb);
+  display: block;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(90deg, #6a11cb);
+  color: white;
+  font-weight: 500;
+}
